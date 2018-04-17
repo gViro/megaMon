@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "megaMon",
+  "version": "1.0",
+
+  "description": "Adjusts size of monospaced fonts in the brower-based version of SafariBooksOnline.",
+
+  "icons": {
+    "48": "icons/tt_48.png", 
+    "96": "icons/tt_96.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/tt_32.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.safaribooksonline.com/*"],
+      "js": ["sboExt.js"]
+    }
+  ]
+
+}
+  
