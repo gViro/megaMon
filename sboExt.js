@@ -19,5 +19,3 @@ for (let i = 0; i < l.length; i++) {
   l[i].style.fontSize = "1.188em";
 }
 
-// reload the page to activate changes
-document.location.reload();
