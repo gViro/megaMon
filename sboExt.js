@@ -3,7 +3,7 @@
 // ----------------------------------------------------------
 
 // store the monospaced body text in an HTML collection
-let e = document.getElementsByTagName('kbd');
+let e = document.getElementsByTagName('sbo-rt-content kbd');
 
 // store the monospaced link text in an HTML collection
 // let l = document.getElementsByClassName('URLPACKT');
