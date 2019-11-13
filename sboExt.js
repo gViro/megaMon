@@ -3,7 +3,7 @@
 // ----------------------------------------------------------
 
 // store the monospaced body text in an HTML collection
-let e = document.getElementsByTagName('sbo-rt-content kbd');
+let e = document.getElementsByTagName('kbd');
 
 // store the monospaced link text in an HTML collection
 // let l = document.getElementsByClassName('URLPACKT');
@@ -11,7 +11,8 @@ let e = document.getElementsByTagName('sbo-rt-content kbd');
 
 // iterate over the body text collection and change fontSize of all elements
 for (let i = 0; i < e.length; i++) {
-  e[i].style.fontSize = "1.188em";
+  e[i].style.fontSize = "1.275em";
+  e[i].styele.color = "#2b2ee2";
 }
 
 // iterate over the link collection and change fontSize of all elements
