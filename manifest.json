@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       //"matches": ["https:\/\/learning.oreilly.com\/(.*)"],
-      "matches": ["https://learning.oreilly.com/*"],
+      "matches": ["http://learning.oreilly.com/*"],
       "js": ["sboExt.js"]
     }
   ]
