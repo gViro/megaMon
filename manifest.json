@@ -21,7 +21,7 @@
   
   "content_scripts": [
     {
-      //"matches": ["https://learning.oreilly.com/library/view/*"],
+      "matches": ["https:\/\/learning.oreilly.com\/(.*)"],
       "js": ["sboExt.js"]
     }
   ]
