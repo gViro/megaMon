@@ -11,8 +11,8 @@ let e = document.getElementsByTagName('kbd');
 
 // iterate over the body text collection and change fontSize of all elements
 for (let i = 0; i < e.length; i++) {
-  e[i].style.fontSize = "none";
-  e[i].styele.color = "#2b2ee2";
+  e[i].style.fontSize = "1.18em";
+  //e[i].styele.color = "#2b2ee2";
 }
 
 // iterate over the link collection and change fontSize of all elements
